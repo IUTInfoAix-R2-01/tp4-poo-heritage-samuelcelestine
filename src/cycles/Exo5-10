@@ -1,0 +1,8 @@
+Exercice 5 : Redéfinir une méthode signifie reprendre la fonction de la classe mère et la changer.
+Exercice 6 : Les méthodes de Vélo et VéloElec qui sont redéfinies sont ToString et getPuissance
+Exercice 7 : @Override sert à écrire une fonction qui existe déjà dans une fonction au-dessus/supérieur à elle.
+Exercice 8 : On peut se dispenser de @Override et il n’est pas vraiment pertinent dans le code. Sa présence sert à écrire une fonction déjà existante.
+Exercice 9 : Mettre @Override la ou il le faut.
+Exercice 10 : L’appel super.getPuissance(FrequenceCoupsDePedale) dans la méthode
+VeloElec.getPuissane() sert à appeler la fonction de la classe mère qu’on a actuellement.
+
