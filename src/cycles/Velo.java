@@ -7,11 +7,18 @@ public class Velo {
 	private double diamRoue;
 	private Random genAlea;
 
-	//public Velo(double braquet, double diamRoue, Random genAlea) {
-		//this.braquet = braquet;
-		//this.diamRoue = diamRoue;
-		//this.genAlea = genAlea;
-	//}
+	public Velo(double braquet, double diamRoue) {
+		this.braquet = braquet;
+		this.diamRoue = diamRoue;
+	}
+	
+	public Velo(double braquet) {
+		this.braquet = braquet;
+	}
+	
+	public Velo() {
+
+	}
 
 	public double getBraquet() {
 		return braquet;
