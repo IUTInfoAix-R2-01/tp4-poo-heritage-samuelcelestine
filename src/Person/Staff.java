@@ -33,10 +33,4 @@ public class Staff extends Persons {
 		return "Staff [school=" + school + ", pay=" + pay + ", getAdress()=" + getAdress() + ", getName()=" + getName()
 				+ "]";
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
