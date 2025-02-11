@@ -3,7 +3,8 @@ import java.util.Random;
 
 public class Velo {
 
-	private double braquet = 13.0;
+	private double DEFAUT_BRAQUET = 13.0;
+	private double braquet;
 	private double diamRoue;
 	private Random genAlea;
 
@@ -18,6 +19,14 @@ public class Velo {
 	
 	public Velo() {
 
+	}
+
+	public double getDEFAUT_BRAQUET() {
+		return DEFAUT_BRAQUET;
+	}
+
+	public void setDEFAUT_BRAQUET(double dEFAUT_BRAQUET) {
+		DEFAUT_BRAQUET = dEFAUT_BRAQUET;
 	}
 
 	public double getBraquet() {
